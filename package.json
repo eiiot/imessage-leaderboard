@@ -1,0 +1,15 @@
+{
+    "name": "imessage_leaderboard",
+    "module": "index.ts",
+    "type": "module",
+    "scripts": {
+        "gather": "bun run index.ts",
+        "analyze": "bun run analyze.ts"
+    },
+    "devDependencies": {
+        "bun-types": "^0.5.0"
+    },
+    "dependencies": {
+        "run-applescript": "^6.1.0"
+    }
+}
